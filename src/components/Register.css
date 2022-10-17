@@ -1,0 +1,25 @@
+
+form{
+    
+    height: 350px;
+    display: block;
+    margin: 220px 500px;
+    width: 230px ;
+    padding: 5px 20px;
+    background-color: coral;
+
+
+    
+}
+form label{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+label input{
+
+    margin-top: 20px;   padding-bottom: 5px;
+}
+.btn{
+    margin-top: 10px;
+}

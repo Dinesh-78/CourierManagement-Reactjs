@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Teko:wght@500&family=Zilla+Slab:ital,wght@0,300;1,400;1,500&display=swap');
+.head{
+    display: flex;
+     height: 1vh;
+     margin-top: 1px;
+
+}
+.left2{
+    display: flex;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 1%;
+    flex-direction: column;
+    
+}
+.fir{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    color:#232d60;
+    
+}
+.sec{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Bitter', serif;
+    color:#232d60;
+}
+.head .btn{
+   
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    width: 30vh;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    
+    color: #fff;
+    box-shadow: 3px 8px,22px rgba(red, green, blue, alpha);
+}
+.right{
+  margin-right: 200;
+  margin-top: 4%;
+  margin-left: 30%;
+}
+
+.cards{
+    margin-top: 820px;
+}
+.card{
+   
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width: 20%;
+    cursor: pointer;
+    float: left;
+    padding: 60px 30px;
+    margin-left: 54px;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6); ;
+  padding-bottom: 85px;
+}
+
+.card span{
+    color: black;
+    font-size: 30px;
+    animation: span 5s ;
+    -webkit-animation: span 2s ;
+    position: relative;
+}
+.card h1{
+    font-size: 25px;
+    font-family: 'Zilla Slab', serif;
+}
+
+
+
+

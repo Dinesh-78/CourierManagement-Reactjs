@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.container {
+    width: 380px;
+    height: 370px;
+    position:absolute;
+    margin-top: 11%;
+    margin-left: 18%;
+    background: #8080ff ;
+    border-radius: 10px;
+    
+}
+.field{
+   width: 100%;
+   padding: 15px;
+   margin: 5px 30%;
+  
+   
+}
+.btn{
+    width: 100%;
+    padding: 10px 30px ;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+.signupimg figure img{
+    width: 30%;
+    height: 5%;
+    margin: 120px 650px;
+}

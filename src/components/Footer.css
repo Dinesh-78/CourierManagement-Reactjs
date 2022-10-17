@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.tail{
+   margin-top: 490px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    width: 25%;
+    padding: 0 15px;
+}
+.col h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    position: relative;
+    color: #ff66b3;
+    
+}
+.col h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    background-color: black;
+    height: 2px;
+    width: 50px;
+}
+.col ul li{
+    margin-top: 10px;
+    
+}
+
+.col ul li a{
+    font-size: 13px;
+    display: block;
+    transition: all 0.3s ease;
+}
+.col ul li a:hover{
+  color: blue;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.col .inst{
+    font-size: 13px;
+    display: block;
+    transition: all 0.3s ease;
+}
+.col .inst:hover{
+  color: #ff471a;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.col .twit{
+    font-size: 13px;
+    display: block;
+    transition: all 0.3s ease;
+}
+.col .twit:hover{
+  color: #9999ff;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.comment{
+    width: 290px;
+    background-color: #cc99ff;
+    color: white;
+    margin-left: -40px;
+    border-radius: 9px;
+}
+.comment h4{
+    margin: 30px 20px;
+}
+.comment input{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
